@@ -3,13 +3,14 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class GUIApplication {
-
-	private static long count = 0l;
+	
+        private static long count = 0l;
+	
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
 		//EDD event
-	    //IoC
+	        //IoC
 		//swing
 		//gui
 		//dom
@@ -31,7 +32,7 @@ public class GUIApplication {
 			}else if (count >= 1000000 && count < 1000000000) {
 				btn.setText(String.format("%.1fM Likes", (float)count / 1000000));
 			}
-       });
+               });
 	
-}
+        }
 }
